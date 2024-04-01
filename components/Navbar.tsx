@@ -194,7 +194,7 @@ export default function Navbar() {
             <Link
               style={headFont.style}
               onClick={handleOnCloseMenu}
-              href="/Auth"
+              href="/auth"
               className=" btn-shadow py-2 mt-2 text-center rounded-md"
             >
               Login
@@ -319,7 +319,7 @@ export default function Navbar() {
            {session.status == "unauthenticated" && 
            <Link
             
-            href="/Auth"
+            href="/auth"
             className=" bg-cyan-700 px-4 rounded-[5px] py-2 text-center "
           >
             Login
