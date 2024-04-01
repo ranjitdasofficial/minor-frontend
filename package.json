@@ -38,6 +38,7 @@
     "clsx": "^2.1.0",
     "cookie": "^0.5.0",
     "date-fns": "^3.6.0",
+    "encoding": "^0.1.13",
     "eslint": "8.46.0",
     "eslint-config-next": "13.4.12",
     "googleapis": "^134.0.0",
