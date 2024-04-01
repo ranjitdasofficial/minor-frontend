@@ -3,7 +3,7 @@ import { signIn, useSession } from 'next-auth/react';
 import { redirect } from 'next/navigation';
 import React from 'react'
 
-const page = () => {
+const Login = () => {
     const handleSignIn = () => {
         signIn("google");
       };
@@ -28,4 +28,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Login
