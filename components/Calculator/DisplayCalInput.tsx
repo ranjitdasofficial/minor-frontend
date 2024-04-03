@@ -16,7 +16,7 @@ const DisplayCalInput = () => {
                   <h1 className='text-sm font-semibold'>{v.name}</h1>
                   <h1 className='text-sm'>Credit: {v.Credit}</h1>
 
-                  {v.SUBCODE==="EX20003" && <p className='text-red-500'>Note: Leave Blank if you don't have this subject.</p>}
+                  {v.SUBCODE==="EX20003" && <p className='text-red-500'>Note: Leave Blank if you don&apos;t have this subject.</p>}
                  
                     {/* <h1 className='text-lg font-semibold'>Subject Code: {v.SUBCODE}</h1>
                     <h1 className='text-lg font-semibold'>Subject Type: {v.Grade}</h1> */}

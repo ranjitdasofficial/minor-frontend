@@ -5,7 +5,7 @@ import DisplayCalInput from '@/components/Calculator/DisplayCalInput'
 import { Calculator } from '@/components/Calculator/calculator'
 import React from 'react'
 
-const page = () => {
+const Page = () => {
     const allData = useAppSelector((state) => state.CalculatorSlice.AllData);
   return (
     <div className=' pt-24 flex flex-col gap-4 justify-center items-center w-full '>
@@ -24,4 +24,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
