@@ -18,9 +18,7 @@ export const loadToast = (message: string) => {
       type: type as any,
       isLoading: false,
       position: "top-center",
-     
       className: "text-black bg-[#11111] border border-gray-800",
-     
       autoClose: 2000,
     });
   };
