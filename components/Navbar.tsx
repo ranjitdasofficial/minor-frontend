@@ -156,7 +156,7 @@ export default function Navbar() {
            
             <a
               target="_blank"
-              href="https://github.com/technicalranjitofficial"
+              href="https://github.com/Technicalranjitofficial/Minor-Project"
             >
               <li
                 className={`border-b border-gray-700 py-2  ${"text-slate-300"}`}
