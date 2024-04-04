@@ -4,14 +4,9 @@ import React from 'react'
 
 const Header2 = () => {
 
-  function openLink() {
-    // Replace 'https://example.com' with the URL you want to open
-    var url = 'https://chat.whatsapp.com/BAgHPirA4JzANjGKDd8z2q';
-    window.open(url, '_blank');
-  }
 
   return (
-    <div className='w-full flex pt-20 md:pt-34 justify-evenly md:flex-row gap-3 flex-col'>
+    <div className='w-full flex pt-20 md:pt-34 justify-evenly md:flex-row gap-3 flex-col px-2'>
         <div className='md:w-2/4 w-full flex items-start flex-col   justify-center'>
         <p className="text-2xl md:text-4xl font-extrabold bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.indigo.400),theme(colors.indigo.100),theme(colors.sky.400),theme(colors.fuchsia.400),theme(colors.sky.400),theme(colors.indigo.100),theme(colors.indigo.400))] bg-[length:200%_auto] animate-gradient py-6">WELCOME TO KIIT KAKSHA</p>
 
@@ -29,7 +24,7 @@ const Header2 = () => {
             </div>
         </div>
         <div className=" w-full   duration-700 my-5 md:my-0 md:w-2/4">
-          <img src="/kiit2.gif" className='cimage' alt="" />
+          <img src="/kaksha.gif" className='cimage' alt="" />
         </div>
     </div>
   )
